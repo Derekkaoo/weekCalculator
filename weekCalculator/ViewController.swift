@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonPressedTwo(_ sender: Any) {
-        showAlertWith(title: "計算結果", message: "少的要給多的\(abs(finalCalculate))元")
+        showAlertWith(title: "計算結果", message: "少的要給多的\(abs(finalCalculate))元\n記帳金額：\(average)")
     }
     
     @IBAction func clearResult(_ sender: Any) {
